@@ -19,6 +19,8 @@ module.exports = {
       "d-ft-black" :"#333333DE", // label of form inputs
       "d-fd-gray" : "#E0E0E1", // form devider
       "d-or-black" : "#00000099", // "or" devider
+      "db-green" : "#08C874", // checkmark 
+      "d-st-gray" : "#00000066", // success subscription text
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],

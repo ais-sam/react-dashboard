@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import SuccessfulSubscriptionCard from '../components/register/SuccessfulSubscriptionCard'
 
-const Register = () => {
+const SuccessfulRegistration = () => {
   return (
     <div className='flex flex-col h-screen'>
       <Navbar/>
@@ -13,4 +13,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default SuccessfulRegistration
