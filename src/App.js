@@ -6,7 +6,7 @@ import Register from "./pages/Register";
 
 function App() {
   return (
-    
+  <div className="font-poppins">
       <BrowserRouter>
       <Routes>
         <Route path="/" >
@@ -16,7 +16,7 @@ function App() {
       </Routes>
      
       </BrowserRouter>
-   
+  </div>
   );
 }
 
