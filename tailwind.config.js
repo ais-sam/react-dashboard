@@ -14,11 +14,18 @@ module.exports = {
       "d-text-back" : "#000000DE",
       "d-blue" : "#0077FF",
       "dt-gray" : "#827E80",// navbar links
-      "db-gray" : "#70707021" // navbar border bottom
+      "db-gray" : "#70707021", // navbar border bottom
+      "d-fb-gray" : "#DEDEDE", // login form border
+      "d-ft-black" :"#333333DE", // label of form inputs
+      "d-fd-gray" : "#E0E0E1", // form devider
+      "d-or-black" : "#00000099", // "or" devider
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],
       "lato" : ["Lato", "sans-serif"]
+    },
+    boxShadow: {
+      'logo': '0px 3px 6px #D1D5DF7F',
     }},
   },
   plugins: [],

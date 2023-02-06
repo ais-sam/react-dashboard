@@ -5,16 +5,21 @@ import Logo from './Logo'
 
 const Navbar = () => {
   return (
-    <div className='border-b border-b-db-gray'>
-      <div className='hidden lg:container lg:flex items-center justify-between py-5'>
-        <div className='flex gap-8 items-center'>
-          <Logo/>
-          <Links/>
+    <>
+      <div className="border-b border-b-db-gray">
+        <div className="hidden lg:container lg:flex items-center justify-between py-5">
+          <div className="flex gap-10 items-center">
+            <Logo />
+            <Links />
+          </div>
+          <Buttons />
         </div>
-        <Buttons/>
       </div>
-    </div>
-  )
+      <span className="mt-4 mr-10 lg:hidden w-4 h-4 bg-[#98989870] rounded-full flex items-center justify-center text-white ml-auto">
+        x
+      </span>
+    </>
+  );
 }
 
 export default Navbar
