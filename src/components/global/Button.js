@@ -1,9 +1,16 @@
 import React from 'react'
+import { BiPlus } from "react-icons/bi";
+
 
 const Button = ({className,text}) => {
-  return (
-    <button className={`${className} px-6 py-[9px] text-sm rounded text-white capitalize`}>{text}</button>
-  )
+  if(text=="Add New User"){
+    return <button className={`${className} px-5 py-[10px] text-sm rounded text-white capitalize`}><span className='flex items-center'><BiPlus className='text-lg font-extrabold mr-2'/> {text}</span></button>
+  } 
+  else {
+    return <button className={`${className} px-6 py-[9px] text-sm rounded text-white capitalize`}>{text}</button>
+  }
+    
+  
 }
 
 export default Button

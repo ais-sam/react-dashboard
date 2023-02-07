@@ -34,6 +34,12 @@ module.exports = {
       "d-admin-blue" : "#16263D", // admin page text 
       "d-admin-green" : "#00DB89", // notification
       'd-admin-m-gray' : "#7B7B7B", // nav menu
+      "d-tb-blue" : "#F8F8F9", // blue bg table
+      "d-filter-blue" : "#F9F9FA", //blue bg filter
+      "d-ft-gray" : "#989898", // grey text filter
+      "d-action-blue" : "#0066FF", //blue action button
+      "d-action-gray" : "#959CA6" , // gray action icon 
+      "d-act-gray" : "#EFEFEF", //gray background action button
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],
@@ -41,6 +47,7 @@ module.exports = {
     },
     boxShadow: {
       'logo': '0px 3px 6px #D1D5DF7F',
+      'listing': "0px 3px 6px #8386B828"
     }},
   },
   plugins: [],

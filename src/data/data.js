@@ -62,3 +62,21 @@ export const menu = [
         arrow: false
     }
 ]
+
+export const filters = [
+    {
+        id:1,
+        type:"Sorted By",
+        value: "Newest"
+    },
+    {
+        id:2,
+        type:"Role",
+        value: "HR Manager"
+    },
+    {
+        id:3,
+        type:"sub Dep",
+        value: "HR Kolding"
+    }
+]
