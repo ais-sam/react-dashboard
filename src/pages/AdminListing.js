@@ -4,7 +4,7 @@ import Sidebar from '../components/listing/Sidebar'
 import Table from '../components/listing/Table'
 const AdminListing = () => {
   return (
-    <div className=' h-screen flex'>
+    <div className=' h-full flex'>
       <Sidebar/>
       <div>
         <NavigationBar/>
