@@ -18,7 +18,10 @@ module.exports = {
       "db-gray" : "#70707021", // navbar border bottom
       "d-fb-gray" : "#DEDEDE", // login form border
       "d-ft-black" :"#333333DE", // label of form inputs
+      "d-fts-black" : "#000000CC", // title in form info
+      "d-fas-black" : "#131313", // account selection title (step 02 registration)
       "d-fd-gray" : "#E0E0E1", // form devider
+      "d-fd2-gray" : "#E0E2E1", // form info devider
       "d-or-black" : "#00000099", // "or" devider
       "db-green" : "#08C874", // checkmark 
       "d-st-gray" : "#00000066", // success subscription text
