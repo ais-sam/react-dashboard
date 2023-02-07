@@ -26,6 +26,11 @@ module.exports = {
       "db-green" : "#08C874", // checkmark 
       "d-st-gray" : "#00000066", // success subscription text
       "d-p-gray" : "#C9C9C9", // progress bar (regitration steps)
+
+      // admin listings
+      "d-dark-blue" : "#16263D", // side bar background
+      "d-side-gray" : "#FFFFFF52", // background search bar
+      "d-side-p-gray" : "#FFFFFFB3", // placeholder search bar
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],

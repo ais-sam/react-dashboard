@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.issam{
+    background: #FFFFFF52 0% 0% no-repeat padding-box;
+}

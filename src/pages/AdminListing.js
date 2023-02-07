@@ -1,8 +1,16 @@
 import React from 'react'
-
+import NavigationBar from '../components/listing/NavigationBar'
+import Sidebar from '../components/listing/Sidebar'
+import Table from '../components/listing/Table'
 const AdminListing = () => {
   return (
-    <div>AdminListing</div>
+    <div className=' h-screen flex'>
+      <Sidebar/>
+      <div>
+        <NavigationBar/>
+        <Table/>
+      </div>
+    </div>
   )
 }
 

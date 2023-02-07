@@ -5,7 +5,7 @@ import Register from "./pages/Register";
 import RegisterStepOne from "./pages/RegisterStepOne";
 import RegisterStepTwo from "./pages/RegisterStepTwo";
 import SuccessfulRegistration from "./pages/SuccessfulRegistration";
-
+import AdminListing from "./pages/AdminListing";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
             <Route path="account-information" element={<RegisterStepTwo/>}/>
             <Route path="success" element={<SuccessfulRegistration/>}/>
           </Route>
+          <Route path="admin" element={<AdminListing/>}/>
         </Route>
       </Routes>
      
