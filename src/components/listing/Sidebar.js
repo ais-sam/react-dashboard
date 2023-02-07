@@ -8,8 +8,11 @@ import SignOut from './SignOut';
 
 const Sidebar = () => {
   return (
-    <div className=" w-[290px] fixed top-0 left-0 overflow-y-scroll h-full bg-d-dark-blue ">
+    <div className=" w-[290px]  h-full  ">
       {/* Burger icon */}
+      <div className=' fixed w-[290px] h-full top-0 left-0 overflow-y-scroll bg-d-dark-blue'>
+
+      
       <div className="border-b-[0.1px]  border-b-gray-600 px-5 py-4">
         <button>
           <img src={burger} className="w-10" />
@@ -30,6 +33,7 @@ const Sidebar = () => {
       <Menu />
       {/* Sign out */}
       <SignOut/>
+    </div>
     </div>
   );
 }

@@ -31,6 +31,9 @@ module.exports = {
       "d-dark-blue" : "#16263D", // side bar background
       "d-side-gray" : "#FFFFFF52", // background search bar
       "d-side-p-gray" : "#FFFFFFB3", // placeholder search bar
+      "d-admin-blue" : "#16263D", // admin page text 
+      "d-admin-green" : "#00DB89", // notification
+      'd-admin-m-gray' : "#7B7B7B", // nav menu
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],

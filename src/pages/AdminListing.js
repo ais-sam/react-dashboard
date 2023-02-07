@@ -6,9 +6,9 @@ const AdminListing = () => {
   return (
     <div className=' h-full flex'>
       <Sidebar/>
-      <div>
+      <div className='flex-1'>
         <NavigationBar/>
-        <Table/>
+        {/* <Table/> */}
       </div>
     </div>
   )
