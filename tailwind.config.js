@@ -11,7 +11,8 @@ module.exports = {
     },
     colors:{
       "d-black" : "#1B1C1D",
-      "d-text-back" : "#000000DE",
+      "d-text-black" : "#000000DE",
+      "d-back-black" : "#707070", // text and border for back button in register form
       "d-blue" : "#0077FF",
       "dt-gray" : "#827E80",// navbar links
       "db-gray" : "#70707021", // navbar border bottom
@@ -21,6 +22,7 @@ module.exports = {
       "d-or-black" : "#00000099", // "or" devider
       "db-green" : "#08C874", // checkmark 
       "d-st-gray" : "#00000066", // success subscription text
+      "d-p-gray" : "#C9C9C9", // progress bar (regitration steps)
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],
