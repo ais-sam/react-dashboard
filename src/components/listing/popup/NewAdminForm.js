@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from '../global/Button'
-import Input from '../login/Input'
+import Button from '../../global/Button'
+import Input from '../../login/Input'
 import { IoClose } from "react-icons/io5";
 const NewAdminForm = () => {
   return (

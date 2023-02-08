@@ -1,7 +1,7 @@
 import React from 'react'
 import FiltersBar from './FiltersBar'
 import Pagination from './Pagination'
-import Popup from './Popup'
+import Popup from './popup/Popup'
 import Table from './table/Table'
 
 const Linsting = () => {

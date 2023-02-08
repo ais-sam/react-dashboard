@@ -4,9 +4,9 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 const Input = ({label,type,className,value,admin}) => {
   const FOCUS_STYLE = (admin) =>{
-    if (admin == "first") {
+    if (admin === "first") {
       return "focus: outline-[#00B5AD] outline-1"
-    } else if(admin == "last"){
+    } else if(admin === "last"){
       return "focus: outline-[#9BA1FF] outline-1"
     } else{
       return "focus: outline-none"
@@ -23,7 +23,6 @@ const Input = ({label,type,className,value,admin}) => {
                 <img src={danemark} alt="danemark" className='w-6'/>
                 <span className={`hidden md:flex text-sm px-2 ${admin && "text-[#B5B5B5]"}`}>44-</span>
                 <MdOutlineArrowDropDown/>
-                {/* &#9660; */}
             </div>
 
             <input type={type} value={value} className="outline-none p-2 rounded border border-d-fb-gray"/>
