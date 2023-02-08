@@ -17,7 +17,6 @@ const SuccessfulSubscriptionCard = () => {
         </p>
       </div>
 
-      {/* Button */}
       <Button className="bg-d-blue" text="sign in"/>
     </div>
   )

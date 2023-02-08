@@ -41,10 +41,12 @@ module.exports = {
       "d-action-gray" : "#959CA6" , // gray action icon 
       "d-act-gray" : "#EFEFEF", //gray background action button
       "d-red" : "#F97365", //delete action button
+      "d-light-blue" : "#9BA1FF",
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],
-      "lato" : ["Lato", "sans-serif"]
+      "lato" : ["Lato", "sans-serif"],
+      "mont" : ["Montserrat", "sans-serif"]
     },
     boxShadow: {
       'logo': '0px 3px 6px #D1D5DF7F',

@@ -1,6 +1,6 @@
 import React from 'react'
 import NavigationBar from '../components/listing/NavigationBar'
-import Sidebar from '../components/listing/Sidebar'
+import Sidebar from '../components/sidebar/Sidebar'
 import Listing from '../components/listing/Listing'
 const AdminListing = () => {
   return (

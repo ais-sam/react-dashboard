@@ -11,7 +11,7 @@ const Linsting = () => {
           <FiltersBar/>
           <Table/>
           <Pagination/>
-          <Popup/>
+          {/* <Popup/> */}
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ const Input = ({label,type,className,value,admin}) => {
     if (admin === "first") {
       return "focus: outline-[#00B5AD] outline-1"
     } else if(admin === "last"){
-      return "focus: outline-[#9BA1FF] outline-1"
+      return "focus: outline-d-light-blue outline-1"
     } else{
       return "focus: outline-none"
     }
