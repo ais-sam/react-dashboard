@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-blur {
+    /* From https://css.glass */
+    background: rgba(119, 119, 119, 0.35);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(119, 119, 119, 0.35);
+    height: calc(100% + 2.5rem);
+}

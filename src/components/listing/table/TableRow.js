@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import TableDataCell from './TableDataCell'
 
 import { FaRegEdit } from "react-icons/fa";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import Status from './Status';
+import TableRowEdit from './TableRowEdit';
 
 const TableRow = ({user}) => {
+  const [select,setSelect] = useState(false)
   const infos = Object.keys(user)
+
+  const selectUser = ()=>{
+    setSelect(prev=>!prev)
+  }
   return (
-    <tr className="border-b py-20"> 
-          <TableDataCell><input type="checkbox" className='rounded-full bg-red-500 border border-green-600'/></TableDataCell>
+    <>
+    <tr className={`border-b ${select && "bg-[#F1F2F459]  border-l-[3px] border-l-[#0066FF]"}`}> 
+          <TableDataCell><input onClick={selectUser} checked={select} type="checkbox" className='rounded-full bg-red-500 border border-green-600 ml-4'/></TableDataCell>
 
         {infos.slice(1).map(el=>{
           if (el === "status") {
@@ -26,9 +33,12 @@ const TableRow = ({user}) => {
           </div>
         </TableDataCell>
         <TableDataCell><button><BiDotsVerticalRounded className='-ml-3 text-xl text-[#B4B4B4]'/></button></TableDataCell>
-
-
     </tr>
+    {/* <TableRowEdit user={user}/> */}
+
+    </>
+    
+  
   )
 }
 
