@@ -1,13 +1,12 @@
 import React from 'react'
 import Button from '../global/Button'
-
+import success from "../../assets/icons/success.png"
 const SuccessfulSubscriptionCard = () => {
   return (
     <div className='p-8 rounded-[20px] max-w-[375px] md:border md:border-d-fb-gray text-center'>
       {/* Checkmark */}
       <div className='relative mb-3 w-fit mx-auto'>
-        <span className='w-7 h-7 rounded-full bg-db-green opacity-20 -top-2 -right-2 absolute'></span>
-        <i className="far fa-check-circle text-db-green text-5xl checkmark"></i>
+        <img src={success}/>
       </div>
 
       {/* message */}
