@@ -88,12 +88,12 @@ export const pagination = [
         active:false
     },
     {
-        id:1,
+        id:2,
         value:"1",
         active:false
     },
     {
-        id:1,
+        id:3,
         value:"2",
         active:true
     },
@@ -103,8 +103,126 @@ export const pagination = [
         active:false
     },
     {
-        id:1,
+        id:4,
         value:"right",
         active:false
+    }
+]
+
+export const tableHeaders = [
+    {
+        id:1,
+        value:"User ID"
+    },
+    {
+        id:2,
+        value:"Full Name"
+    },
+    {
+        id:3,
+        value:"join date"
+    },
+    {
+        id:4,
+        value:"Role"
+    },
+    {
+        id:5,
+        value:"Phone"
+    },
+    {
+        id:6,
+        value:"Email"
+    },
+    {
+        id:7,
+        value:"Status"
+    },
+    {
+        id:8,
+        value:"Actions"
+    }
+]
+
+export const users = [
+    {
+        id:1,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "blocked"
+    },
+    {
+        id:2,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "active"
+    },
+    {
+        id:3,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "active"
+    },
+    {
+        id:4,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "active"
+    },
+    {
+        id:5,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "active"
+    },
+    {
+        id:6,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "active"
+    },
+    {
+        id:7,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "blocked"
+    },
+    {
+        id:8,
+        userId: "USR24542",
+        fullName: "Fath Allah Karim",
+        joinDate: "@01-11-2022",
+        role: "HR Manager",
+        phone: "+33 562 3252 235",
+        email: "vitolkerMail@gmail.com",
+        status: "blocked"
     }
 ]

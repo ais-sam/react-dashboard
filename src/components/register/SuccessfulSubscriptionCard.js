@@ -7,7 +7,7 @@ const SuccessfulSubscriptionCard = () => {
       {/* Checkmark */}
       <div className='relative mb-3 w-fit mx-auto'>
         <span className='w-7 h-7 rounded-full bg-db-green opacity-20 -top-2 -right-2 absolute'></span>
-        <i class="far fa-check-circle text-db-green text-5xl checkmark"></i>
+        <i className="far fa-check-circle text-db-green text-5xl checkmark"></i>
       </div>
 
       {/* message */}

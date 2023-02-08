@@ -40,6 +40,7 @@ module.exports = {
       "d-action-blue" : "#0066FF", //blue action button
       "d-action-gray" : "#959CA6" , // gray action icon 
       "d-act-gray" : "#EFEFEF", //gray background action button
+      "d-red" : "#F97365", //delete action button
     },
     fontFamily:{
       "poppins" : ["Poppins", "sans-serif"],
