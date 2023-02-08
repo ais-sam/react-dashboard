@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from './MenuItem'
-import { menu } from '../../data/data'
+import { menu } from '../../constants'
 const Menu = () => {
   return (
     <div className='px-6 py-4 flex flex-col justify-between'>

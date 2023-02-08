@@ -3,6 +3,7 @@ import Filter from './Filter'
 import FilterList from './FilterList'
 import FiltersBar from './FiltersBar'
 import ListingActions from './ListingActions'
+import Pagination from './Pagination'
 
 const Linsting = () => {
   return (
@@ -13,7 +14,7 @@ const Linsting = () => {
           {/* TAble */}
           <div></div>
           {/* pagination */}
-          <div></div>
+          <Pagination/>
         </div>
     </div>
   )

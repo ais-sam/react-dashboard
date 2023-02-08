@@ -80,3 +80,31 @@ export const filters = [
         value: "HR Kolding"
     }
 ]
+
+export const pagination = [
+    {
+        id:1,
+        value:"left",
+        active:false
+    },
+    {
+        id:1,
+        value:"1",
+        active:false
+    },
+    {
+        id:1,
+        value:"2",
+        active:true
+    },
+    {
+        id:1,
+        value:"3",
+        active:false
+    },
+    {
+        id:1,
+        value:"right",
+        active:false
+    }
+]
