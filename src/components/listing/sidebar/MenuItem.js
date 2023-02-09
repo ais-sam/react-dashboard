@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import arrowIcon from "../../assets/icons/arrow.png"
+import arrowIcon from "../../../assets/icons/arrow.png"
 import Submenu from './Submenu'
 
 const MenuItem = ({name,icon,arrow,mini}) => {

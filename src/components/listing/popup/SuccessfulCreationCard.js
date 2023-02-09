@@ -6,12 +6,11 @@ import { useListing } from '../../../contexts/ListingContext'
 const SuccessfulCreationCard = () => {
   const {setOpen} = useListing()
   return (
-    <div className='z-50 text-center bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-3/4 left-1/2 -translate-x-1/2 overflow-hidden'>
+    <div className='z-50 text-center bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-[340px] left-1/2 -translate-x-1/2 overflow-hidden'>
       
       <div className='relative mb-4 w-fit mx-auto'>
             <img src={success}/>
       </div>
-
 
       <div className='mb-7'>
         <h4 className='capitalize text-d-text-black font-semibold text-center mb-2 text-xl'>Created Successfully</h4>
@@ -20,7 +19,7 @@ const SuccessfulCreationCard = () => {
         </p>
       </div>
 
-      <Button onClick={()=>setOpen(false)} className="bg-db-green mt-3" text="got it"/>
+      <Button onClick={()=>setOpen(false)} className="bg-db-green mt-4" text="got it"/>
     </div>
 
   )

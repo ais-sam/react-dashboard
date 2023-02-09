@@ -18,7 +18,7 @@ const Input = ({label,type,className,value,admin}) => {
         <div>
           <span className=" d-text-black capitalize font-medium text-[13px] ">{label}</span>
 
-        <div className={`flex flex-wrap items-center justify-between ${className} mt-1`}>
+        <div className={`flex flex-wrap items-center justify-between ${className} mt-[6px]`}>
             <div className='p-2 bg-transparent rounded border border-d-fb-gray flex items-center gap-2 '>
                 <img src={danemark} alt="danemark" className='w-6'/>
                 <span className={`hidden md:flex text-sm px-2 ${admin && "text-[#B5B5B5]"}`}>44-</span>
@@ -36,7 +36,7 @@ const Input = ({label,type,className,value,admin}) => {
             <span className="d-ft-black capitalize font-semibold md:font-medium text-[13px]">
               {label}
             </span>
-            <input type={type} className={`px-2 w-full p-[3px] h-[41px] rounded border border-d-fb-gray mt-1 ${FOCUS_STYLE(admin)}`}/>
+            <input type={type} className={`px-2 w-full p-[3px] h-[41px] rounded border border-d-fb-gray mt-[6px] ${FOCUS_STYLE(admin)}`}/>
           </label>
         </div>
       );

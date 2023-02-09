@@ -1,6 +1,6 @@
 import React from "react";
 import MenuItem from "./MenuItem";
-import signout from "../../assets/icons/signout.png"
+import signout from "../../../assets/icons/signout.png"
 const SignOut = ({mini}) => {
   return (
     <div className={`border-t-[0.1px]  border-t-gray-600  py-4 ${mini ? "px-3 mx-4" : "px-5"}`}>

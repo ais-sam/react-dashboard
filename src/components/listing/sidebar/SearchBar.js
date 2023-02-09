@@ -1,6 +1,6 @@
 import React from 'react'
 import { HiOutlineSearch } from "react-icons/hi";
-import search from "../../assets/icons/search.png"
+import search from "../../../assets/icons/search.png"
 const SearchBar = ({mini}) => {
     if (!mini) {
         return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiArrowDropRightLine, RiArrowDropLeftLine } from "react-icons/ri";
 import PaginationButton from './PaginationButton';
-import { pagination } from '../../constants';
+import { pagination } from '../../../constants';
 
 
 const Pagination = () => {
@@ -21,7 +21,7 @@ const Pagination = () => {
   }
   
   return (
-    <div className='flex items-center justify-center gap-3 py-4'>
+    <div className='flex items-center justify-center gap-3 py-6'>
     {Buttons()}
     </div>
   )

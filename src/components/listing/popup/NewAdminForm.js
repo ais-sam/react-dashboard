@@ -28,6 +28,7 @@ const NewAdminForm = () => {
         </div>
 
         <form  onSubmit={(e)=>handleSubmit(e)}>
+
             <div className='flex flex-col gap-3'>
               <div className='flex flex-col md:flex-row md:gap-6'>
                 <Input admin="first" type="text" label="first name"/>
@@ -36,13 +37,13 @@ const NewAdminForm = () => {
               <Input type="email" label="email"/>
               <Input admin={true} type="tel" label="phone number"/>
               <Input type="text" label="admin user role"/>
-
             </div>
 
             <div className='flex flex-wrap md:justify-end gap-4 mt-32 md:mt-16'>
               <Button onClick={exit} className='flex-1 md:flex-grow-0 border border-d-back-black md:border-none text-d-back-black' text="cancel"/>
               <Button onClick={createUser} className="bg-[#08C874] flex-1 md:flex-grow-0 md:flex-auto" text="create"/>
             </div>
+            
         </form>
         </div>
   )

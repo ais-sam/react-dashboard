@@ -1,6 +1,6 @@
 import React from 'react'
-import burger from "../../assets/icons/burger.png"
-import miniBurger from "../../assets/icons/mini_burger.png"
+import burger from "../../../assets/icons/burger.png"
+import miniBurger from "../../../assets/icons/mini_burger.png"
 
 const BurgerIcon = ({mini,onClick}) => {
     if (!mini) {

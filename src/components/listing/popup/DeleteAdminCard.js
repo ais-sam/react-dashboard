@@ -7,12 +7,12 @@ const DeleteAdminCard = () => {
   const {setOpen} = useListing()
 
   return (
-    <div className='z-50 bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-3/4 left-1/2 -translate-x-1/2 overflow-hidden'>
+    <div className='z-50 bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-[340px] left-1/2 -translate-x-1/2 overflow-hidden'>
         <img src={warning} className="w-[70px] mx-auto"/>
 
         <div className='text-center mt-3'>
             <h4 className='text-xl text-d-text-black mb-2 font-semibold'>Delete Admin !</h4>
-            <p className='text-[13px] text-[#00000066]'>Are you sure you wanna delete this admin user</p>
+            <p className='text-[13px] text-[#00000066] py-2 px-2'>Are you sure you wanna delete this admin user</p>
             <input placeholder='( Admin user name here )' className='px-1 w-52 focus:outline-none focus:placeholder:text-transparent placeholder:text-center placeholder:text-black placeholder:text-[13px] text-[13px] text-center'/>
         </div>
 

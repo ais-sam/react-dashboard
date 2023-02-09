@@ -1,6 +1,6 @@
 import React from 'react'
 import Filter from './Filter'
-import { filters } from '../../constants'
+import { filters } from '../../../constants'
 const FilterList = () => {
   return (
     <div className='flex items-center gap-3'>

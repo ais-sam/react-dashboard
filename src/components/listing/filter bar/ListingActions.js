@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from '../global/Button';
+import Button from '../../global/Button';
 import { HiOutlineSearch } from "react-icons/hi";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TbFilter } from "react-icons/tb";
 import ActionButton from './ActionButton';
-import { useListing } from '../../contexts/ListingContext';
+import { useListing } from '../../../contexts/ListingContext';
 
 const ListingActions = () => {
   const {setOpen,setAction} = useListing()

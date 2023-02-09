@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from './MenuItem'
-import { menu } from '../../constants'
+import { menu } from '../../../constants'
 
 const Menu = ({mini}) => {
   return (

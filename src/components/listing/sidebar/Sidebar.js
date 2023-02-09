@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
-import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
-import burger from "../../assets/icons/burger.png"
-import { HiOutlineSearch } from "react-icons/hi";
-import Menu from './Menu';
-import MenuItem from './MenuItem';
-import SignOut from './SignOut';
-import SearchBar from './SearchBar';
+import React, { useState } from 'react';
 import BurgerIcon from './BurgerIcon';
+import Menu from './Menu';
+import SearchBar from './SearchBar';
+import SignOut from './SignOut';
 
 const Sidebar = () => {
   const [open,setOpen] = useState(true)
@@ -26,8 +22,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-{/* <div className="border-b-[0.1px]  border-b-gray-600 px-5 py-4">
-  <button>
-    <img src={burger} className="w-10" />
-  </button>
-</div> */}

@@ -1,12 +1,9 @@
-import React, {useState} from 'react'
-import TableDataCell from './TableDataCell'
+import React, { useState } from 'react';
+import TableDataCell from './TableDataCell';
 
-import { FaRegEdit } from "react-icons/fa";
-import { RiDeleteBinLine } from "react-icons/ri";
 import { BiDotsVerticalRounded } from "react-icons/bi";
-import Status from './Status';
-import TableRowEdit from './TableRowEdit';
 import ActionsButtons from './ActionsButtons';
+import Status from './Status';
 
 const TableRow = ({user}) => {
   const [select,setSelect] = useState(false)
@@ -31,7 +28,7 @@ const TableRow = ({user}) => {
 
         <TableDataCell>
           <button>
-            <BiDotsVerticalRounded className='-ml-3 text-xl text-[#B4B4B4]'/>
+            <BiDotsVerticalRounded className='-ml-5 translate-y-1  text-xl  text-[#B4B4B4]'/>
           </button>
         </TableDataCell>
     {/* <TableRowEdit user={user}/> */}
