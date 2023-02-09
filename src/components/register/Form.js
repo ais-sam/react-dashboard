@@ -15,12 +15,12 @@ const Form = ({step}) => {
     if (step==1) {
         return (
         <div className=' p-4 md:p-12'>
-            {/* icon */}
+            
             <div className='relative mb-3 w-fit mx-auto md:hidden'>
                 <img src={personal}/>
             </div>
 
-            {/* Step title */}
+            
             <h1 className='text-center md:text-start d-text-black font-semibold md:font-normal text-[22px] md:text-xl mb-6 md:mb-10'>Personal information</h1>
   
             <Progress mobile={true} step={1}/>

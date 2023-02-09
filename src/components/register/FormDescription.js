@@ -1,6 +1,4 @@
 import React from 'react'
-import account from "../../assets/icons/account.png"
-import personal from "../../assets/icons/personal.png"
 import Divider from '../login/Divider'
 import Description from './Description'
 import Progress from './Progress'
@@ -22,7 +20,6 @@ const FormDescription = ({step}) => {
       <Progress step={2}/>
       <Divider className="mt-10" horizontal={true}/> 
       <Description step={2}/>
-      {/* <Divider  horizontal={true} end={true}/>  */}
       <span className={`w-8 h-1 bg-d-fd2-gray rounded block mt-64 `}></span>
     </div>
   )
