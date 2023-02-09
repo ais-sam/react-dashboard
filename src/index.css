@@ -24,6 +24,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --primary: #16263d00;
+    --secondary: #1f395e;
+}
+
 .bg-blur {
     /* From https://css.glass */
     background: rgba(119, 119, 119, 0.35);
@@ -33,7 +39,3 @@
     height: calc(100% + 2.5rem);
 }
 
-:root {
-    --primary: #16263d00;
-    --secondary: #1f395e;
-  }

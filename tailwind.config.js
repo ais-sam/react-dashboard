@@ -52,6 +52,7 @@ module.exports = {
       'logo': '0px 3px 6px #D1D5DF7F',
       'listing': "0px 3px 6px #8386B828"
     }},
+    
   },
   plugins: [],
 }

@@ -9,7 +9,7 @@ const Description = ({ step }) => {
       <div className="mt-14">
         <img src={personal} className="w-16 mx-auto mb-4" />
         <div className="text-center">
-          <h3 className="text-d-fts-black text-sm font-normal mb-3">
+          <h3 className="text-d-fts-black text-sm font-semibold mb-3">
             Personal information
           </h3>
           <p className="text-d-st-gray text-[13px] leading-7">
@@ -24,7 +24,7 @@ const Description = ({ step }) => {
     <div className="mt-32">
       <img src={account} className="w-16 mx-auto mb-4 " />
       <div className="text-center">
-        <h3 className="text-d-fts-black text-sm font-normal mb-3">
+        <h3 className="text-d-fts-black text-sm font-semibold mb-3">
           Account information
         </h3>
         <p className="text-d-st-gray text-[13px] leading-7">

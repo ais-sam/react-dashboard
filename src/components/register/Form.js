@@ -33,13 +33,13 @@ const Form = ({step}) => {
         )
     }
   return (
-    <div className='p-4 mt-32 md:mt-0 md:p-12'>
-        {/* icon */}
+    <div className='p-4 mt-60 md:mt-0 md:p-12'>
+        
         <div className='relative mb-3 w-fit mx-auto md:hidden'>
             <img src={account}/>
         </div>
 
-        {/* Step title */}
+        
         <h1 className='text-center md:text-start d-text-black font-semibold md:font-normal text-[22px] md:text-xl mb-6 md:mb-10'>Account information</h1>
 
         <AccountSelection/>

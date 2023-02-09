@@ -5,7 +5,7 @@ import windows from "../../assets/icons/windows.png"
 
 const LoginIcons = () => {
   return (
-    <div className="flex items-center justify-center gap-4 mt-8">
+    <div className="flex items-center justify-center gap-4 my-8">
       
       <button className="p-4 md:px-6 md:py-4 shadow-logo rounded w-fit">
         <img src={linkedin} className="w-8" alt="linkedin" />

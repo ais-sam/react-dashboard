@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 const ForgotPasswordSection = () => {
   return (
-    <div className="flex justify-between items-center text-sm mt-3">
+    <div className="flex justify-between items-center text-sm mt-6">
       <div>
         <label className="flex items-center gap-3">
           <input type="checkbox" />
