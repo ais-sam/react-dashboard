@@ -10,8 +10,8 @@ const Navbar = () => {
   const navigate = useNavigate()
   return (
     <>
-      <div className="border-b border-b-db-gray">
-        <div className="hidden lg:container md:flex items-center justify-between py-5">
+      <div className="lg:border-b lg:border-b-db-gray">
+        <div className=" lg:container md:flex items-center justify-between py-5">
           <div className="flex gap-10 items-center">
             <Logo />
             <Links />

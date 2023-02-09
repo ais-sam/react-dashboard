@@ -31,7 +31,6 @@ const TableRow = ({user}) => {
             <BiDotsVerticalRounded className='-ml-5 translate-y-1  text-xl  text-[#B4B4B4]'/>
           </button>
         </TableDataCell>
-    {/* <TableRowEdit user={user}/> */}
     </tr>
 
     </>

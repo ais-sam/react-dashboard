@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Links = () => {
   return (
-    <div>
+    <div className='hidden lg:block'>
       <ul className='flex items-center gap-3 text-base text-dt-gray'>
         <li><Link to="/" className='text-d-black'>Become an admin</Link></li>
         <li><Link to="/">offers</Link></li>
