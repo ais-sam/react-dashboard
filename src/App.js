@@ -6,6 +6,7 @@ import RegisterStepOne from "./pages/RegisterStepOne";
 import RegisterStepTwo from "./pages/RegisterStepTwo";
 import SuccessfulRegistration from "./pages/SuccessfulRegistration";
 import AdminListing from "./pages/AdminListing";
+import Layout from "./components/global/Layout";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" >
           <Route index element={<Login/>}/>
-          <Route path="register">
+          <Route path="register" element={<Layout/>}>
             <Route index element={<RegisterStepOne/>}/>
             <Route path="account-information" element={<RegisterStepTwo/>}/>
             <Route path="success" element={<SuccessfulRegistration/>}/>

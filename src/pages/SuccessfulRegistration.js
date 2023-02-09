@@ -5,7 +5,6 @@ import SuccessfulSubscriptionCard from '../components/register/SuccessfulSubscri
 const SuccessfulRegistration = () => {
   return (
     <div className='flex flex-col h-screen'>
-      <Navbar/>
       <div className='flex items-center justify-center h-full'>
         <SuccessfulSubscriptionCard/>
       </div>

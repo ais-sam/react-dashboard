@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from '../../login/Input'
+import Input from '../../global/Input'
 import danemark from "../../../assets/icons/danemark.png"
 import { MdOutlineArrowDropDown } from "react-icons/md";
 

@@ -1,10 +1,9 @@
 import React from 'react'
-import Input from '../login/Input'
+import Input from '../global/Input'
 import Button from '../global/Button'
 import Select from '../global/Select'
 import personal from "../../assets/icons/personal.png"
 import account from "../../assets/icons/account.png"
-import organisation from "../../assets/icons/organisation.png"
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import { TbBuildingPavilon } from "react-icons/tb";
 

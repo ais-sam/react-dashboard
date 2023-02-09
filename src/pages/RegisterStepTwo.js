@@ -1,14 +1,11 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
-import RegistrationForm from '../components/register/RegistrationForm'
-import SuccessfulSubscriptionCard from '../components/register/SuccessfulSubscriptionCard'
+import AccountInfoFormCard from '../components/register/AccountInfoFormCard'
 
 const RegisterStepTwo = () => {
   return (
     <div className='flex flex-col h-screen'>
-      <Navbar/>
       <div className='flex items-center justify-center h-full'>
-        <RegistrationForm step="two"/>
+        <AccountInfoFormCard/>
       </div>
     </div>
   )
