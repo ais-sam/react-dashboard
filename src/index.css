@@ -1,4 +1,26 @@
 @tailwind base;
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+  }
 @tailwind components;
 @tailwind utilities;
 
@@ -10,3 +32,8 @@
     border: 1px solid rgba(119, 119, 119, 0.35);
     height: calc(100% + 2.5rem);
 }
+
+:root {
+    --primary: #16263d00;
+    --secondary: #1f395e;
+  }

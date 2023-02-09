@@ -6,6 +6,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import Status from './Status';
 import TableRowEdit from './TableRowEdit';
+import ActionsButtons from './ActionsButtons';
 
 const TableRow = ({user}) => {
   const [select,setSelect] = useState(false)
@@ -26,12 +27,7 @@ const TableRow = ({user}) => {
           return <TableDataCell>{user[el]}</TableDataCell>
         })} 
 
-        <TableDataCell>
-          <div className='flex gap-4 text-lg text-[#B4B4B4]'>
-            <button className='hover:text-d-light-blue'><FaRegEdit/></button>
-            <button className='hover:text-d-red'><RiDeleteBinLine/></button>
-          </div>
-        </TableDataCell>
+        <ActionsButtons/>
 
         <TableDataCell>
           <button>

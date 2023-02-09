@@ -10,7 +10,7 @@ const SuccessfulSubscriptionCard = () => {
     <div className='p-8 rounded-[20px] max-w-[375px] md:border md:border-d-fb-gray text-center'>
 
       <div className='relative mb-3 w-fit mx-auto'>
-        <img src={success}/>
+        <img src={success} alt=""/>
       </div>
 
 

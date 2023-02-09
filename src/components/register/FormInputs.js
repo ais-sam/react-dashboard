@@ -3,7 +3,7 @@ import Input from '../global/Input'
 import Select from '../global/Select'
 
 const FormInputs = ({step}) => {
-    if (step == 1) {
+    if (step === 1) {
         return (
             <div className='flex flex-col gap-6'>
             <div className='flex flex-col md:flex-row md:gap-6'>

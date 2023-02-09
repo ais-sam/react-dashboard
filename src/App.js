@@ -1,12 +1,11 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./components/global/Layout";
+import AdminListing from "./pages/AdminListing";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
 import RegisterStepOne from "./pages/RegisterStepOne";
 import RegisterStepTwo from "./pages/RegisterStepTwo";
 import SuccessfulRegistration from "./pages/SuccessfulRegistration";
-import AdminListing from "./pages/AdminListing";
-import Layout from "./components/global/Layout";
 
 function App() {
   return (

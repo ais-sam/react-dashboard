@@ -4,9 +4,14 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TbFilter } from "react-icons/tb";
 import ActionButton from './ActionButton';
-
+import { useListing } from '../../contexts/ListingContext';
 
 const ListingActions = () => {
+  const {setOpen,setAction} = useListing()
+  const addUser = ()=>{
+    setOpen(true)
+    setAction("add")
+  }
   return (
     <div className='flex items-center gap-3'>
 
@@ -16,7 +21,7 @@ const ListingActions = () => {
           <ActionButton><MdOutlineFileDownload className='text-d-action-gray'/></ActionButton>
         </div>
         
-        <Button className="bg-d-action-blue text-xs" text="Add New User"/>
+        <Button onClick={addUser} className="bg-d-action-blue text-xs" text="Add New User"/>
     </div>
   )
 }

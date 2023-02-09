@@ -1,10 +1,13 @@
 import React from 'react'
 import warning from "../../../assets/icons/warning.png"
 import Button from '../../global/Button'
+import { useListing } from '../../../contexts/ListingContext'
 
 const DeleteAdminCard = () => {
+  const {setOpen} = useListing()
+
   return (
-    <div className='bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-3/4 left-1/2 -translate-x-1/2 overflow-hidden'>
+    <div className='z-50 bg-white w-[375px] rounded-[20px] p-12  absolute top-1/2 -translate-y-3/4 left-1/2 -translate-x-1/2 overflow-hidden'>
         <img src={warning} className="w-[70px] mx-auto"/>
 
         <div className='text-center mt-3'>
@@ -14,8 +17,8 @@ const DeleteAdminCard = () => {
         </div>
 
         <div className='text-center mt-5'>
-            <Button text="Cancel" className="text-d-admin-m-gray mr-4"/>
-            <Button text="Delete" className="bg-d-red px-8" />
+            <Button onClick={()=>setOpen(false)} text="Cancel" className="text-d-admin-m-gray mr-4"/>
+            <Button onClick={()=>setOpen(false)} text="Delete" className="bg-d-red px-8" />
         </div>
     </div>
   )

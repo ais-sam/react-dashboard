@@ -1,13 +1,12 @@
-import google from "../assets/icons/google.png"
 import collaboration from "../assets/icons/collaboration.png"
 import finance from "../assets/icons/finance.png"
 import help from "../assets/icons/help.png"
+import hr from "../assets/icons/hr.png"
 import inbox from "../assets/icons/inbox.png"
 import manage_clients from "../assets/icons/manage_clients.png"
 import manage_orders from "../assets/icons/manage_orders.png"
 import manage_partners from "../assets/icons/manage_partners.png"
 import settings from "../assets/icons/settings.png"
-import hr from "../assets/icons/hr.png"
 import system from "../assets/icons/system.png"
 
 
@@ -109,12 +108,12 @@ export const pagination = [
         active:true
     },
     {
-        id:1,
+        id:4,
         value:"3",
         active:false
     },
     {
-        id:4,
+        id:5,
         value:"right",
         active:false
     }
