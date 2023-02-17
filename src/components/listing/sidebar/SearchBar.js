@@ -15,7 +15,7 @@ const SearchBar = ({mini}) => {
         )  
     }
     return (
-        <div className="px-6 py-4 flex justify-center ">
+        <div className="px-6 py-4 flex justify-start ">
             <img src={search} alt="" className='w-8'/>
         </div>
     )

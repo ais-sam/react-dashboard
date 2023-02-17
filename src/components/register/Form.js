@@ -12,7 +12,7 @@ const Form = ({step}) => {
     const handleSubmit = (e)=>{
         e.preventDefault()
     }
-    if (step==1) {
+    if (step===1) {
         return (
         <div className=' p-4 md:p-12'>
             

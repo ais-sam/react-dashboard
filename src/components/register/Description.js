@@ -4,7 +4,7 @@ import personal from "../../assets/icons/personal.png"
 
 
 const Description = ({ step }) => {
-  if (step == 1) {
+  if (step === 1) {
     return (
       <div className="mt-14">
         <img src={personal} className="w-16 mx-auto mb-4" />

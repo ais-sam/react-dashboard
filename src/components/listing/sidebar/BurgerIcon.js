@@ -13,7 +13,7 @@ const BurgerIcon = ({mini,onClick}) => {
         );
     }
     return (
-      <div className="border-b-[0.1px]  border-b-gray-600 px-3 mx-4 pt-5 pb-6 flex justify-center">
+      <div className="border-b-[0.1px]  border-b-gray-600 px-3 mx-4 pt-5 pb-6 flex justify-start">
         <button onClick={onClick}>
           <img src={miniBurger} className="w-8" />
         </button>

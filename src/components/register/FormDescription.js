@@ -5,7 +5,7 @@ import Progress from './Progress'
 
 
 const FormDescription = ({step}) => {
-    if (step == 1) {
+    if (step === 1) {
         return (
             <div className='basis-2/5 hidden md:flex md:flex-col md:items-center md:py-12 md:px-8 border-r border-r-d-fb-gray '>
               <Progress step={1}/>
