@@ -29,8 +29,8 @@ const MenuItem = ({name,icon,arrow,mini}) => {
 
   return (
     <button className={`w-full flex items-center justify-start mb-4 p-2   ${active || "text-d-side-p-gray"}`}>
-        <div className='flex items-center gap-6'>
-            <img src={icon} className="w-5"/>
+        <div className='flex items-center gap-'>
+            <img src={icon} className="block"/>
         </div>
     </button>
   )

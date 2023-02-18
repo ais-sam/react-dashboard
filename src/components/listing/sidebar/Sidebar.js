@@ -10,9 +10,7 @@ const Sidebar = ({className}) => {
     setOpen(prev=>!prev)
   }
   return (
-    // <aside className={`${className} h-full ${open ? "w-[290px]" : "w-[106px]"}`}>
-    <aside className={`${className}  w-72 min-h-full`}>
-      {/* <div className={`fixed h-full top-0 left-0 overflow-y-scroll bg-d-dark-blue ${open ? "w-[290px]" : "w-[106px]"}`}> */}
+    <aside className={`${className}  ${open ? "w-72":" w-24" } min-h-full`}>
       <div className={` h-full top-0 left-0 overflow-y-scroll bg-d-dark-blue `}>
           <BurgerIcon onClick = {toggleSidebar} mini={!open}/>
           <SearchBar mini={!open}/>
